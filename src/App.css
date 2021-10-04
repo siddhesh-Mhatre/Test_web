@@ -1,38 +1,259 @@
-.App {
-  text-align: center;
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+/* main section */
+
+html {
+  overflow: scroll;
+  overflow-x: hidden;
+}
+::-webkit-scrollbar {
+  width: 0;  /* Remove scrollbar space */
+  background: transparent;  /* Optional: just make scrollbar invisible */
+}
+/* Optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+  background: #FF0000;
+}
+body{
+  font-family: 'Poppins',sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+.main{
+  background-image: url("C:/Intership/thinkgestalt/src/img/herosection/Artwork.svg");
+  height: 785px;
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.img-fluid{
+  height: 399px !important;
+}
+.model{
+ 
+}
+.brandIMG{
+  height: 24px !important;
+}
+.element_button a{
+  padding: 12px 24px;
+  text-decoration: none;
+} 
+span{
+  font-weight: 500;
+  /* width: 68px; */
+  font-size: 24px;
+  color: #0A0A0A;
+  /* line-height: 36px; */
+  cursor: pointer;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.element_button a span{
+  color: #FFFFFF;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 2vw;
+}
+.element_button hr{
+  color: #FFFFFF;
+  
+}
+.element_heading{
+  color: #FFFFFF;
+  font-family: "Poppins", Sans-serif;
+  font-size: 4vw;
+  font-weight: 600;
+}
+
+.element_heading h2 i{
+  font-size: 64px;
+  font-weight: 300;
+  font-family: robot;
+}
+
+/* model */
+.modal-header {
+justify-content: end !important;
+border-bottom: none !important;
+}
+.modal-open .modal {
+ 
+  padding-left: 0 !important;
+}
+.modal-open .modal {
+overflow-y: hidden !important;
+}
+.element_button .divider{
+  border: 1px solid white;
+
+  width: 97%;
+
+}
+.di1{
+  
+    text-align: right;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.modal-content {
+height: 98vh;
+background-color: rgb(0 0 0) !important;
+}
+@media (min-width: 576px){
+  .modal-dialog {
+    max-width: initial !important;
+    /* width: 100% !important; */
+    margin-top: 0 !important;
+  
+}
+}
+
+
+/* work */
+.span1{
+  color: #000000;
+  font-family: "Poppins", Sans-serif;
+  font-size: 8vw;
+  font-weight: 600;
+  line-height: 1.1em;
+  letter-spacing: 2px;
+  margin: 0px 20px 0px 0px;
+}
+.span2{
+  color: #000000;
+  font-family: "Poppins", Sans-serif;
+  font-size: 8vw;
+  font-weight: 300;
+  font-style: italic;
+  line-height: 1.1em;
+  letter-spacing: 2px;
+}
+
+.elementer_work{
+  color: #000000;
+  font-family: "Poppins", Sans-serif;
+  font-size: 1.3vw;
+  font-weight: 300;
+  line-height: 1.5em;
+  padding-left: 6rem !important;
+}
+
+
+/* service*/
+
+.Elementor_icon{
+  width: 1em;
+  height: 1em;
+  position: relative;
+  display: block;
+}
+.Elemter_img{
+  font-size: 40px;
+  padding: 10px;
+}
+.Elementor_link{
+  font-weight: 500;
+  font-style: italic;
+  font-family: "Poppins", Sans-serif;
+  font-size: 32px;
+  color: #0A0A0A;
+  text-decoration: none;
+  padding: 10px;
+}
+
+
+/* menu bar media*/
+@media only screen and (max-width: 599px) {
+
+  .main {
+    height: 600px
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .element_heading h2 i {
+    font-size: 6.7vw !important;
+    line-height: 1em !important;
   }
-  to {
-    transform: rotate(360deg);
+  .Second_head{
+    font-size: 12.4vw !important;
+    line-height: 1em !important;
   }
+  .main_page{
+    row-gap: 1rem !important;
+  }
+  .brandIMG{
+    height: 24px !important;
+  }
+/*  */
+.barndimg{
+  width: 160px !important;
+  padding: 0 !important;
+}
+.menu{
+  width: 36% !important;
+}
+ .ModelContainer{
+  padding: 0 !important;
+}
+.modal.show .modal-dialog {
+  margin: 0 !important;
+}
+.modal-title span{
+  padding-right: 0 !important;
+}
+.element_heading{
+  padding-left: 1rem !important;
+  font-size: 6vw !important;
+  margin-bottom: 0 !important;
+}
+.List_res{
+  flex-direction: column !important;
+}
+.element_button a span {
+font-size: 4vw;
+}
+.modal-body{
+  padding: 0 !important;
+}
+
+/* work */
+.work{
+  padding: 0 !important;
+}
+.elementer_work {
+  padding-left: 1rem !important;
+  font-size: 16px !important;
+}
+.img-fluid{
+height: 330px !important;
+}
+.span1 {
+text-align:initial !important;
+font-size: 37px !important;
+}
+.span2{
+  font-size: 37px !important;
+}
+.divider{
+  width: 84% !important;
+}
+.Service_container{
+  padding: 0 !important;
+}
+.item_Box{
+  margin: 0 !important;
+}
+.Item_container{
+  padding: 0 !important;
+}
+.row {
+  --bs-gutter-x: 0rem !important;
+}
+.Service_heading{
+  flex-direction: column !important;
+  align-items: baseline !important;
+  padding-left: 1rem;
+}
+.Service{
+  padding: 0% 05% 0% 05%;
+}
 }
