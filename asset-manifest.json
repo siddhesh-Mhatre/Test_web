@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/Test_web/static/css/main.96046fcd.chunk.css",
+    "main.js": "/Test_web/static/js/main.e8f9cf1c.chunk.js",
+    "main.js.map": "/Test_web/static/js/main.e8f9cf1c.chunk.js.map",
+    "runtime-main.js": "/Test_web/static/js/runtime-main.34b0ef15.js",
+    "runtime-main.js.map": "/Test_web/static/js/runtime-main.34b0ef15.js.map",
+    "static/css/2.aafe37f4.chunk.css": "/Test_web/static/css/2.aafe37f4.chunk.css",
+    "static/js/2.d80da63b.chunk.js": "/Test_web/static/js/2.d80da63b.chunk.js",
+    "static/js/2.d80da63b.chunk.js.map": "/Test_web/static/js/2.d80da63b.chunk.js.map",
+    "static/js/3.e3cd83ec.chunk.js": "/Test_web/static/js/3.e3cd83ec.chunk.js",
+    "static/js/3.e3cd83ec.chunk.js.map": "/Test_web/static/js/3.e3cd83ec.chunk.js.map",
+    "index.html": "/Test_web/index.html",
+    "static/css/2.aafe37f4.chunk.css.map": "/Test_web/static/css/2.aafe37f4.chunk.css.map",
+    "static/css/main.96046fcd.chunk.css.map": "/Test_web/static/css/main.96046fcd.chunk.css.map",
+    "static/js/2.d80da63b.chunk.js.LICENSE.txt": "/Test_web/static/js/2.d80da63b.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/Test_web/static/media/Artwork.d7ae0d55.svg",
+    "static/media/Automation Services.18caa402.svg": "/Test_web/static/media/Automation Services.18caa402.svg",
+    "static/media/Cloud Services.b45b9179.svg": "/Test_web/static/media/Cloud Services.b45b9179.svg",
+    "static/media/Cyber Security.7ce308b3.svg": "/Test_web/static/media/Cyber Security.7ce308b3.svg",
+    "static/media/Data Science.5ad32598.svg": "/Test_web/static/media/Data Science.5ad32598.svg",
+    "static/media/Image 1.95283420.png": "/Test_web/static/media/Image 1.95283420.png",
+    "static/media/Image 2.72c1a4b3.png": "/Test_web/static/media/Image 2.72c1a4b3.png",
+    "static/media/Image 3.1a0cb985.png": "/Test_web/static/media/Image 3.1a0cb985.png",
+    "static/media/Tailor-Made Web Apps.6ea8e1c5.svg": "/Test_web/static/media/Tailor-Made Web Apps.6ea8e1c5.svg",
+    "static/media/Website Development.25142d75.svg": "/Test_web/static/media/Website Development.25142d75.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.34b0ef15.js",
+    "static/css/2.aafe37f4.chunk.css",
+    "static/js/2.d80da63b.chunk.js",
+    "static/css/main.96046fcd.chunk.css",
+    "static/js/main.e8f9cf1c.chunk.js"
+  ]
+}
