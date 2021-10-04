@@ -1,6 +1,5 @@
 import React from "react";
- 
-import Modal from "react-bootstrap/Modal";
+import { Modal } from 'react-bootstrap'
  
 const Model = () => {
   const [isOpen, setIsOpen] = React.useState(false);
