@@ -15,8 +15,8 @@ const Case_study = () => {
               <h2
                 className="span1"
                 style={{ fontSize: "6vw", marginLeft: "30px" }}
-              >
-              Studies
+              > 
+              Studies 
               </h2>
             </div>
           </div>
