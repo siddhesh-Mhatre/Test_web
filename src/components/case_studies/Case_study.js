@@ -10,7 +10,7 @@ const Case_study = () => {
               <h2 className="span2" style={{ fontSize: "6vw", margin: "0" }}>
                case
               </h2>
-            </div>
+            </div> 
             <div className="col-lg-3">
               <h2
                 className="span1"
