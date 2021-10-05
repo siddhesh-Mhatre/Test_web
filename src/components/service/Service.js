@@ -26,7 +26,7 @@ const Service = () => {
                 className="elementer_work"
                 style={{ paddingLeft: "padding: 0% 50% 0% 0%;" }}
               >
-                Stitching tech stacks to come up with a comprehensive solution
+                Stitching tech stacks To come up with a comprehensive solution
                 that transforms your business.
               </p>
             </div>
