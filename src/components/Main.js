@@ -3,6 +3,8 @@ import Navbar from "./navbarcomponet/Navbar";
 import Work from './work/Work'; 
 import Service from './service/Service';
 import Case_study from './case_studies/Case_study';
+import Role from './role/Role';
+import Form from './Form/Form';
 const Main = () => {
     return (
       <>
@@ -20,6 +22,14 @@ const Main = () => {
 
       <div className="caseStudy">
 <Case_study/>
+      </div>
+
+      <div className="UseCase" style={{marginTop:"15%"}}>
+   <Role/>
+      </div>
+
+      <div className="Form" style={{marginTop:"10%",marginBottom:"5%"}}> 
+      <Form/>
       </div>
       </>
     )

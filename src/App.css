@@ -214,6 +214,118 @@ border-radius: 12px;
   line-height: 48px;
   color: #0A0A0A;
 }
+
+/* Role and useCase */
+.role_title{
+  color: #000000;
+  font-family: "Poppins", Sans-serif;
+  font-size: 3.5vw;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+.Rounder_container{
+   padding: 23px 23px 23px 23px;
+  border-style: solid;
+  border-width: 2px 2px 2px 2px;
+  border-color: #000000;
+  border-radius: 50px 50px 50px 50px;
+
+}
+.Rounder_container h2{
+  color: #000000;
+  font-family: "Poppins", Sans-serif;
+  font-size: 2vw;
+  font-weight: 400;
+  font-style: italic;
+  text-align: center;
+}
+
+.usecase_title1{
+  color: #000000;
+  font-family: "Poppins", Sans-serif;
+  font-size: 6vw;
+  font-weight: 300;
+  font-style: italic;
+}
+.usecase_title2{
+  color: #000000;
+  font-family: "Poppins", Sans-serif;
+  font-size: 6vw;
+  font-weight: 600;
+  text-transform: capitalize;
+  font-style: normal;
+}
+
+.learn_more h2{
+  color: #000000;
+  font-family: "Poppins", Sans-serif;
+  font-size: 1.5vw;
+  font-weight: 500;
+  font-style: italic;
+  cursor: pointer;
+}
+
+
+/* form */
+.form_controls{background-color: #ffffff;
+border-width: 0px 0px 3px 0px;
+line-height: 1.4;
+font-size: 15px;
+min-height: 40px;
+width: 100%;
+transition: all .3s;
+/* border: 1px solid #818a91; */
+border-radius: 3px;
+padding: .5rem 1rem;
+margin: 0;
+outline: none;
+}
+.lable_{
+  padding-bottom: 20px;
+  cursor: pointer;
+  display: inline-block;
+  line-height: 1;
+  vertical-align: middle;
+  font-family: "Poppins", Sans-serif;
+  font-weight: 400;
+  letter-spacing: 2px;
+  color: #000000;
+   
+}
+.form_text{
+  background-color: #ffffff;
+    overflow: auto;
+    resize: vertical;
+    border-width: 0px 0px 3px 0px;
+    color: #000000;
+    line-height: 1.4;
+    font-size: 15px;
+    min-height: 40px;
+    padding: 5px 14px;
+ 
+    border-radius: 3px;
+    vertical-align: middle;
+    max-width: 100%;
+    font-family: "Poppins", Sans-serif;
+    font-weight: 400;
+    outline: none;
+}
+.form_btn{
+  background-color: #000000;
+    color: #ffffff;
+    font-family: "Poppins", Sans-serif;
+    font-weight: 500;
+    font-style: italic;
+    border-radius: 25px 25px 25px 25px;
+    min-height: 47px;
+    font-size: 16px;
+    padding: 15px 30px;
+    border: none;
+    display: inline-block;
+    line-height: 1;
+    text-align: center;
+    transition: all .3s;
+}
 /* menu bar media*/
 @media only screen and (max-width: 599px) {
 
@@ -325,6 +437,36 @@ font-size: 13px !important;
 left: 20px !important;
 height: auto !important;
 }
+.service_content p{
+  font-size: 22px !important;
+}
+.service_span{
+  font-size: 22px !important;
+}
 
+/* useCase study */
+.Roles{
+  padding: 0% 05% 0% 05%;
+}
+.our_roles{
+  flex-direction: column !important;
+  row-gap: 1rem !important;
+}
+.Rounder_container h2{
+  font-size: 7vw !important;
+}
+.role_title {
+  font-size: 29px !important;
+}
+.usecase_title1,.usecase_title2 {
+font-size: 37px !important;
+}
+.learn_more h2{
+  font-size: 16px !important;
+}
+/* form */
+.btn_res{
+  text-align: center !important;
+}
 }
 
